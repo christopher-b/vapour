@@ -2250,21 +2250,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sidelight-ghost-theme@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sidelight-ghost-theme@workspace:."
-  dependencies:
-    "@tailwindcss/typography": "npm:^0.5.16"
-    "@tailwindcss/vite": "npm:^4.1.12"
-    archiver: "npm:^7.0.1"
-    prismjs: "npm:^1.30.0"
-    tailwindcss: "npm:^4.1.12"
-    vite: "npm:^7.1.3"
-    vite-plugin-prismjs: "npm:^0.0.11"
-    vite-plugin-restart: "npm:^2.0.0"
-  languageName: unknown
-  linkType: soft
-
 "signal-exit@npm:^4.0.1":
   version: 4.1.0
   resolution: "signal-exit@npm:4.1.0"
@@ -2510,6 +2495,21 @@ __metadata:
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
   languageName: node
   linkType: hard
+
+"vapour-ghost-theme@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "vapour-ghost-theme@workspace:."
+  dependencies:
+    "@tailwindcss/typography": "npm:^0.5.16"
+    "@tailwindcss/vite": "npm:^4.1.12"
+    archiver: "npm:^7.0.1"
+    prismjs: "npm:^1.30.0"
+    tailwindcss: "npm:^4.1.12"
+    vite: "npm:^7.1.3"
+    vite-plugin-prismjs: "npm:^0.0.11"
+    vite-plugin-restart: "npm:^2.0.0"
+  languageName: unknown
+  linkType: soft
 
 "vite-plugin-prismjs@npm:^0.0.11":
   version: 0.0.11

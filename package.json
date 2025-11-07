@@ -1,7 +1,6 @@
 {
-  "name": "sidelight-ghost-theme",
+  "name": "vapour-ghost-theme",
   "description": "A Ghost theme using Vite & TailwindCSS",
-  "demo": "https://sidelight.cbennell.com",
   "version": "0.1.0",
   "engines": {
     "ghost": ">=5.0.0"
@@ -33,10 +32,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/christopher-b/sidelight.git"
+    "url": "https://github.com/christopher-b/vapour.git"
   },
-  "bugs": "https://github.com/christopher-b/sidelight/issues",
-  "contributors": "https://github.com/christopher-b/sidelight/graphs/contributors",
+  "bugs": "https://github.com/christopher-b/vapour/issues",
+  "contributors": "https://github.com/christopher-b/vapour/graphs/contributors",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.12",

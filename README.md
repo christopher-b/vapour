@@ -1,4 +1,4 @@
-# Sidelight: Ghost CMS theme boilerplate with Vite + TailwindCSS
+# A Ghost CMS theme boilerplate with Vite + TailwindCSS
 
 This theme is intended as a starting point for Ghost themes powered by Vite and TailwindCSS, and any other modern JS goodness you want to bring. The visual design is intentionally bare bones, but it is intended to be fully-featured out of the box.
 
