@@ -2,9 +2,10 @@ import { defineConfig } from "vite";
 import prism from "vite-plugin-prismjs";
 import tailwindcss from "@tailwindcss/vite";
 import ghostManifestPartials from "./lib/vite/ghost-manifest-partials.js";
-import reloadHbs from "./lib/vite/reload-hbs.js";
+import ViteRestart from "vite-plugin-restart";
 
 export default defineConfig({
+  base: "./",
   publicDir: false,
   manifest: true,
   css: {
@@ -19,13 +20,10 @@ export default defineConfig({
       input: "assets/js/index.js",
     },
   },
-  // server: {
-  //   cors: {
-  //     origin: "http://localhost:2368",
-  //   },
-  // },
   plugins: [
-    reloadHbs(),
+    ViteRestart({
+      reload: ["**/*.hbs"],
+    }),
     ghostManifestPartials(
       "assets/built/manifest.json",
       "partials/vite_assets/head.hbs",

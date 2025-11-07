@@ -44,7 +44,8 @@
     "prismjs": "^1.30.0",
     "tailwindcss": "^4.1.12",
     "vite": "^7.1.3",
-    "vite-plugin-prismjs": "^0.0.11"
+    "vite-plugin-prismjs": "^0.0.11",
+    "vite-plugin-restart": "^2.0.0"
   },
   "browserslist": [
     "defaults"
