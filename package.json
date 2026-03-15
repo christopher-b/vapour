@@ -39,6 +39,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.12",
+    "@tryghost/theme-translations": "^0.0.11",
     "archiver": "^7.0.1",
     "prismjs": "^1.30.0",
     "tailwindcss": "^4.1.12",

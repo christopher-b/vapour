@@ -19,19 +19,19 @@
     <main class="flex flex-col grow shrink-0 basis-auto px-12 w-3xl">
       <h2 class="text-4xl">{{statusCode}}</h2>
       <p class="my-3">{{message}}</p>
-      <p><a href="{{@site.url}}">Go to the front page →</a></p>
+      <p><a href="{{@site.url}}">{{t "Go to the front page →"}}</a></p>
 
       {{#if errorDetails}}
       <section>
-        <h3 class="text-lg">Theme errors:</h3>
+        <h3 class="text-lg">{{t "Theme errors"}}:</h3>
         <ul>
           {{#foreach errorDetails}}
           <li>
             <h4 class="gh-error-stack-function">{{{rule}}}</h4>
 
             {{#foreach failures}}
-              <span><strong>Ref:</strong> {{ref}}</span><br>
-              <span><strong>Message:</strong> {{message}}</span>
+              <span><strong>{{t "Ref"}}:</strong> {{ref}}</span><br>
+              <span><strong>{{t "Message"}}:</strong> {{message}}</span>
             {{/foreach}}
           </li>
           {{/foreach}}

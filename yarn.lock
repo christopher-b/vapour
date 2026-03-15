@@ -827,6 +827,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tryghost/theme-translations@npm:^0.0.11":
+  version: 0.0.11
+  resolution: "@tryghost/theme-translations@npm:0.0.11"
+  checksum: 10c0/e3bd5804f737faee3b628aa5ce16e28594a7f80a291f97ec9e9a9c29a2cb03813349f56e32a7552b2e325ded0088d7fe42303be103e4b712b3d563d31272fe4a
+  languageName: node
+  linkType: hard
+
 "@tybys/wasm-util@npm:^0.10.0":
   version: 0.10.0
   resolution: "@tybys/wasm-util@npm:0.10.0"
@@ -1040,9 +1047,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001735":
-  version: 1.0.30001737
-  resolution: "caniuse-lite@npm:1.0.30001737"
-  checksum: 10c0/9d9cfe3b46fe670d171cee10c5c1b0fb641946fd5d6bea26149f804003d53d82ade7ef5a4a640fb3a0eaec47c7839b57e06a6ddae4f0ad2cd58e1187d31997ce
+  version: 1.0.30001779
+  resolution: "caniuse-lite@npm:1.0.30001779"
+  checksum: 10c0/6cae9492140722ebc6be76cf3057ff8d1b427c7d8c2588b92bba7979bb1ec7ece457c7d3578a099a757ec12cb01b893fe05f224ac8feb841072897f0c12de6cc
   languageName: node
   linkType: hard
 
@@ -2502,6 +2509,7 @@ __metadata:
   dependencies:
     "@tailwindcss/typography": "npm:^0.5.16"
     "@tailwindcss/vite": "npm:^4.1.12"
+    "@tryghost/theme-translations": "npm:^0.0.11"
     archiver: "npm:^7.0.1"
     prismjs: "npm:^1.30.0"
     tailwindcss: "npm:^4.1.12"

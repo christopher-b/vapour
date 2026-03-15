@@ -15,16 +15,16 @@
 
     <div class="my-3">
       {{#if website}}
-        <a href="{{website}}" target="_blank" rel="noopener">Website</a>
+        <a href="{{website}}" target="_blank" rel="noopener">{{t "Website"}}</a>
       {{/if}}
       {{#if twitter}}
-        <a href="{{social_url type="twitter"}}" target="_blank" rel="noopener">Twitter</a>
+        <a href="{{social_url type="twitter"}}" target="_blank" rel="noopener">{{t "Twitter"}}</a>
       {{/if}}
       {{#if facebook}}
-        <a href="{{social_url type="facebook"}}" target="_blank" rel="noopener">Facebook</a>
+        <a href="{{social_url type="facebook"}}" target="_blank" rel="noopener">{{t "Facebook"}}</a>
       {{/if}}
       {{#if bluesky}}
-        <a href="{{social_url type="bluesky"}}" target="_blank" rel="noopener">Bluesky</a>
+        <a href="{{social_url type="bluesky"}}" target="_blank" rel="noopener">{{t "Bluesky"}}</a>
       {{/if}}
     </div>
 
@@ -32,12 +32,12 @@
         <img class="gh-page-image" src="{{cover_image}}" alt="{{name}}" />
     {{/if}}
   </header>
-  {{/author}}
-
   <div>
-    <h3 class="text-4xl mb-3">Posts by this author</h3>
+    <h3 class="text-4xl mb-3">{{t "Posts by {name}" name=name}}</h3>
     {{#foreach posts}}
       {{> "components/card"}} {{!-- partials/card.hbs --}}
     {{/foreach}}
   </div>
+  {{/author}}
+
 </div>

@@ -51,13 +51,13 @@
       <p class="text-sm italic py-3">
         <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
         <span>&bull;</span>
-        {{reading_time}}
+        {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span>
         <span>&bull;</span>
-        <span>By {{#foreach authors}}{{#if @first}}{{name}}{{else}}, {{name}}{{/if}}{{/foreach}}</span>
+        {{{t "By {authors}" authors=(authors) }}}
       </p>
       <h2 class="text-xl pb-3">{{title}}</h2>
       <p>{{excerpt}}</p>
-      <strong>Read more</strong>
+      <strong>{{t "Read more"}}</strong>
     </div>
   </a>
 </article>
