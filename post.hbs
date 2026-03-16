@@ -7,9 +7,9 @@
     <p class="italic my-3">
       <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
       <span>&bull;</span>
-      {{reading_time}}
+      {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span>
       <span>&bull;</span>
-      Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
+      {{{t "By {authors}" authors=(authors) }}}
     </p>
 
     <div class="my-3">

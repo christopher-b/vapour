@@ -1,7 +1,10 @@
 import { defineConfig } from "vite";
-import prism from "vite-plugin-prismjs";
-import tailwindcss from "@tailwindcss/vite";
+
+import mergeLocalesPlugin from "./lib/vite/merge-locales.js";
 import ghostManifestPartials from "./lib/vite/ghost-manifest-partials.js";
+
+import tailwindcss from "@tailwindcss/vite";
+import prism from "vite-plugin-prismjs";
 import ViteRestart from "vite-plugin-restart";
 
 export default defineConfig({
@@ -24,6 +27,7 @@ export default defineConfig({
     ViteRestart({
       reload: ["**/*.hbs"],
     }),
+    mergeLocalesPlugin(),
     ghostManifestPartials(
       "assets/built/manifest.json",
       "partials/vite_assets/head.hbs",

@@ -31,9 +31,9 @@
 
       {{#if @site.members_enabled}}
         {{^if @member}}
-          <a class="" href="{{@site.signup_url}}">Subscribe</a>
+          <a class="" href="{{@site.signup_url}}">{{t "Subscribe"}}</a>
         {{else}}
-          <a class="" href="#/portal/account">Account</a>
+          <a class="" href="#/portal/account">{{t "Account"}}</a>
         {{/if}}
       {{/if}}
     </div>
